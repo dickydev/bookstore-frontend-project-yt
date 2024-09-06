@@ -1,0 +1,9 @@
+.carousel-container {
+    max-height: 400px; /* Adjust this value as needed */
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+    object-fit: cover; /* This ensures the image covers the container without distortion */
+    height: 100%;
+  }
