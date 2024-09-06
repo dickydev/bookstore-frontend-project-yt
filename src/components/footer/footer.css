@@ -1,0 +1,55 @@
+.footer {
+    background-color: rgb(17, 17, 61);
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-md-4 {
+    flex: 1;
+    padding: 15px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+  }
+  
+  /* Gaya tambahan untuk responsivitas (opsional) */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+  
+  .container {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1; /* Isi konten akan mengisi sisa ruang */
+  }
